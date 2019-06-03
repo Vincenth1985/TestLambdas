@@ -15,6 +15,10 @@ public class SensorMeasurement {
         this.lightIntensity = lightIntensity;
     }
 
+    public SensorMeasurement(BigDecimal humidity) {
+        this.humidity = humidity;
+    }
+
     public BigDecimal getHumidity() {
         return humidity;
     }
