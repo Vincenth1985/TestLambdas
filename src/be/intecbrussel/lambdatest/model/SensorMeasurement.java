@@ -32,18 +32,17 @@ public class SensorMeasurement {
     }
 
     public BigDecimal getTemperatureFahrenheit() {
-     /*   double fahrenheit = 0;
-        fahrenheit += temperature.doubleValue() * (1.8 + 32);*/
-        return temperature = new BigDecimal(temperature.doubleValue() * (1.8 + 32));
-
+        double temperatureFahr;
+        temperatureFahr = (temperature.doubleValue() * 1.8) + 32;
+        return new BigDecimal(temperatureFahr);
     }
 
     @Override
     public String toString() {
-        return "SensorMeasurement{" +
-                "humidity=" + humidity +
-                ", temperature=" + temperature +
-                ", lightIntensity=" + lightIntensity +
-                '}';
+        return String.format("SensorMeasurements " + "Humidity = %5.2f " + "Temperature Fahrenheit = %-5.2f " + "Temperature = %6.2f " + "LightIntensity = %5.2f "
+                , humidity.doubleValue()
+                , getTemperatureFahrenheit()
+                , temperature.doubleValue()
+                , lightIntensity.doubleValue());
     }
 }

@@ -11,9 +11,9 @@ public class RandomMeasurementGenerator implements MeasurementGenerator {
 
         Random random = new Random();
         SensorMeasurement sensorMeasurement = new SensorMeasurement(
-                new BigDecimal(random.doubles(1, 0, 100).findFirst().getAsDouble()),
-                new BigDecimal(random.doubles(1, 0, 10001).findFirst().getAsDouble()),
-                new BigDecimal(random.doubles(1, -70, 70).findFirst().getAsDouble()));
+                new BigDecimal(random.doubles(1, 0, 101).findFirst().getAsDouble()),
+                new BigDecimal(random.doubles(1, -70, 70).findFirst().getAsDouble()),
+                new BigDecimal(random.doubles(1, 0, 1001).findFirst().getAsDouble()));
 
 
         return sensorMeasurement;
