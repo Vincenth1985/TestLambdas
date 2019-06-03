@@ -6,29 +6,32 @@ public class SensorMeasurement {
 
     private BigDecimal humidity;
     private BigDecimal temperature;
-    private BigDecimal lightIntesity;
+    private BigDecimal lightIntensity;
 
 
-    public SensorMeasurement(BigDecimal humidity, BigDecimal temperature, BigDecimal lightIntesity) {
+    public SensorMeasurement(BigDecimal humidity, BigDecimal temperature, BigDecimal lightIntensity) {
         this.humidity = humidity;
         this.temperature = temperature;
-        this.lightIntesity = lightIntesity;
+        this.lightIntensity = lightIntensity;
     }
 
     public BigDecimal getHumidity() {
         return humidity;
     }
 
-    public BigDecimal getLightIntesity() {
-        return lightIntesity;
+    public BigDecimal getLightIntensity() {
+        return lightIntensity;
     }
 
     public BigDecimal getTemperatureCelcius() {
         return temperature;
     }
 
-    public BigDecimal getTemperatureFahrenheit(){
-        return temperature;
+    public BigDecimal getTemperatureFahrenheit() {
+     /*   double fahrenheit = 0;
+        fahrenheit += temperature.doubleValue() * (1.8 + 32);*/
+        return temperature = new BigDecimal(temperature.doubleValue() * (1.8 + 32));
+
     }
 
 
