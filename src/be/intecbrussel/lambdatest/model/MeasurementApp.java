@@ -2,6 +2,7 @@ package be.intecbrussel.lambdatest.model;
 
 import java.util.Arrays;
 import java.util.Objects;
+import java.util.OptionalDouble;
 import java.util.function.Consumer;
 import java.util.stream.Stream;
 
@@ -34,11 +35,11 @@ public class MeasurementApp {
     }
 
     public static void printSortedByLighIntensity(SensorMeasurement[] sensorMeasurements) {
+
         System.out.println("\nSorting LightIntensity");
         System.out.println("-".repeat(40));
-        ;
-        Stream.of(sensorMeasurements).mapToDouble(s -> s.getLightIntensity()
-                .doubleValue())
+
+        Stream.of(sensorMeasurements).mapToDouble(s -> s.getLightIntensity().doubleValue())
                 .sorted()
                 .forEach(s -> System.out.format("%4.2f Lummen\n", s));
 
@@ -54,13 +55,20 @@ public class MeasurementApp {
         return sensorMeasurementsToString;
     }
 
-   /* public void printAverageTemperature(SensorMeasurement[] sensorMeasurements) {
+    public static void printAverageTemperature(SensorMeasurement[] sensorMeasurements) {
 
-        double result1 = DoubleStream.
-                .reduce("", (carry, e) -> carry + e);
+        OptionalDouble average = Arrays.stream(sensorMeasurements)
+                .mapToDouble(s -> s.getTemperatureCelcius().doubleValue())
+                .average();
+        OptionalDouble averageFahrenheit = Arrays.stream(sensorMeasurements)
+                .mapToDouble(s -> s.getTemperatureFahrenheit().doubleValue())
+                .average();
+
+        System.out.format("Average Temperature %.2f Celcius \n", average.getAsDouble());
+        System.out.format("Average Temperature %.2f Fahrenheit \n", averageFahrenheit.getAsDouble());
 
 
-    }*/
+    }
 
     public static void main(String[] args) {
 
@@ -83,5 +91,11 @@ public class MeasurementApp {
         String[] convertToString = mapToInfoString(sensorMeasurements);
         Stream.of(convertToString).forEach(s -> System.out.println(s));
         System.out.println();
+
+        System.out.println("Average of Temperature");
+        System.out.println("-".repeat(40));
+        printAverageTemperature(sensorMeasurements);
+
+
     }
 }

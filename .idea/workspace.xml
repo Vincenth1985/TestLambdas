@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="923becf4-83b3-4f39-8bc9-a4dd9184fb05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LambdasenStreams/be/intecbrussel/lambdatest/model/MeasurementApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LambdasenStreams/be/intecbrussel/lambdatest/model/MeasurementApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LambdasenStreams/be/intecbrussel/lambdatest/model/SensorMeasurement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LambdasenStreams/be/intecbrussel/lambdatest/model/SensorMeasurement.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/MeasurementApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/MeasurementApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/SensorMeasurement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/SensorMeasurement.java" afterDir="false" />
     </list>
@@ -20,20 +17,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/MeasurementApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+            <state relative-caret-position="671">
+              <caret line="67" column="65" selection-start-line="67" selection-start-column="65" selection-end-line="67" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#generateMeasurementArray#0;class#MeasurementApp#0" />
+                <element signature="method#printHighestTemperature#0;class#MeasurementApp#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/MeasurementGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -53,12 +43,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/SensorMeasurement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+            <state relative-caret-position="375">
+              <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
               <folding>
                 <element signature="e#652#653#0" expanded="true" />
                 <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#738#739#0" expanded="true" />
                 <element signature="e#772#773#0" expanded="true" />
               </folding>
             </state>
@@ -128,7 +117,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559567339380" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559569544437" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -190,7 +179,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3299363" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46624205" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46624205" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -213,7 +202,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/MeasurementApp.java</url>
-          <line>48</line>
+          <line>49</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -221,6 +210,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/MeasurementGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/RandomMeasurementGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -233,30 +229,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/SensorMeasurement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        <state relative-caret-position="375">
+          <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
           <folding>
             <element signature="e#652#653#0" expanded="true" />
             <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
             <element signature="e#772#773#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/MeasurementGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/MeasurementApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+        <state relative-caret-position="671">
+          <caret line="67" column="65" selection-start-line="67" selection-start-column="65" selection-end-line="67" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#generateMeasurementArray#0;class#MeasurementApp#0" />
+            <element signature="method#printHighestTemperature#0;class#MeasurementApp#0" />
           </folding>
         </state>
       </provider>

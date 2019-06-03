@@ -39,7 +39,7 @@ public class SensorMeasurement {
 
     @Override
     public String toString() {
-        return String.format("SensorMeasurements " + "Humidity = %5.2f%% " + "Temperature = %6.2f Celcius (%6.2f Fahr.) " + "LightIntensity = %5.2f Lummen "
+        return String.format("SensorMeasurements " + "Humidity = %5.2f%% " + "Temperature = %6.2f Celcius (%6.2f Fahrenheit) " + "LightIntensity = %5.2f Lummen "
                 , humidity.doubleValue()
                 , temperature.doubleValue()
                 , getTemperatureFahrenheit()
