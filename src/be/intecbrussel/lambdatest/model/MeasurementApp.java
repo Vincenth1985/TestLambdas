@@ -3,8 +3,13 @@ package be.intecbrussel.lambdatest.model;
 import java.util.Arrays;
 import java.util.Objects;
 import java.util.OptionalDouble;
-import java.util.function.Consumer;
 import java.util.stream.Stream;
+
+/*
+ * 5 Statiche methode met gebruik maken van streams.
+ * De generateMeasurementArray methode vul SensorMeasurements in een SensorMeasurement.
+ *
+ * */
 
 public class MeasurementApp {
 
@@ -20,7 +25,6 @@ public class MeasurementApp {
 
     public static void printHighestTemperature(SensorMeasurement[] sensorMeasurements) {
 
-
         Stream.of(sensorMeasurements).mapToDouble(s -> s.getTemperatureFahrenheit()
                 .doubleValue())
                 .max()
@@ -35,9 +39,6 @@ public class MeasurementApp {
     }
 
     public static void printSortedByLighIntensity(SensorMeasurement[] sensorMeasurements) {
-
-        System.out.println("\nSorting LightIntensity");
-        System.out.println("-".repeat(40));
 
         Stream.of(sensorMeasurements).mapToDouble(s -> s.getLightIntensity().doubleValue())
                 .sorted()
@@ -82,6 +83,8 @@ public class MeasurementApp {
         printHighestTemperature(sensorMeasurements);
         System.out.println();
 
+        System.out.println("\nSorting LightIntensity");
+        System.out.println("-".repeat(40));
         printSortedByLighIntensity(sensorMeasurements);
         System.out.println();
 

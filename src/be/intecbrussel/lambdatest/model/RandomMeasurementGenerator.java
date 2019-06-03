@@ -2,7 +2,13 @@ package be.intecbrussel.lambdatest.model;
 
 import java.math.BigDecimal;
 import java.util.Random;
-import java.util.stream.DoubleStream;
+
+/*
+* Hier worden de randoms bijgevoegd aan de constructor van de SensorMeasurement.
+* Deze methode gaat dienen om een array van Sensormeasurements te vullen.
+*
+* */
+
 
 public class RandomMeasurementGenerator implements MeasurementGenerator {
 
