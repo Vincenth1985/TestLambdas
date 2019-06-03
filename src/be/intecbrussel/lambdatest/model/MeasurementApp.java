@@ -1,6 +1,7 @@
 package be.intecbrussel.lambdatest.model;
 
 import java.util.Arrays;
+import java.util.function.Consumer;
 import java.util.stream.Stream;
 
 public class MeasurementApp {
@@ -18,11 +19,23 @@ public class MeasurementApp {
 
     public static void printHighestTemperature(SensorMeasurement[] sensorMeasurements) {
 
-        Stream.of(sensorMeasurements).forEach(s -> System.out.println(s.getHumidity().max(s.getHumidity())));
+
+        Stream.of(sensorMeasurements).mapToDouble(s -> s.getTemperatureFahrenheit()
+                .doubleValue())
+                .max()
+                .stream()
+                .forEach(s -> System.out.format("\nHighest temperature in Fahrenheit : %11.2f Fahr.",s));
+
+        Stream.of(sensorMeasurements).mapToDouble(s -> s.getTemperatureCelcius()
+                .doubleValue())
+                .max()
+                .stream()
+                .forEach(s -> System.out.format("\nHighest temperature in Celcius : %14.2f Celcius.",s));
     }
 
 
     public static void printSortedByLighIntensity(SensorMeasurement[] sensorMeasurements) {
+
 
         Stream.of(sensorMeasurements).sorted().forEach(s -> s.getLightIntensity());
 
@@ -46,8 +59,12 @@ public class MeasurementApp {
 
         SensorMeasurement[] sensorMeasurements = generateMeasurementArray(3);
 
-        Stream.of(sensorMeasurements).forEach(s-> System.out.println(s.toString()));
+        Stream.of(sensorMeasurements).forEach(s -> System.out.println(s.toString()));
+        System.out.println();
 
+        printHighestTemperature(sensorMeasurements);
+
+        printSortedByLighIntensity(sensorMeasurements);
 
     }
 }

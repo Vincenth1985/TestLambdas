@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="923becf4-83b3-4f39-8bc9-a4dd9184fb05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/MeasurementApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/MeasurementApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/RandomMeasurementGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/RandomMeasurementGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/SensorMeasurement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/SensorMeasurement.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +13,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/MeasurementApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="32" column="87" selection-start-line="32" selection-start-column="87" selection-end-line="32" selection-end-column="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/MeasurementGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -37,26 +47,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/MeasurementApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="48" column="81" selection-start-line="48" selection-start-column="81" selection-end-line="48" selection-end-column="81" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/SensorMeasurement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+            <state relative-caret-position="284">
+              <caret line="41" column="129" selection-start-line="41" selection-start-column="129" selection-end-line="41" selection-end-column="129" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
+                <element signature="method#SensorMeasurement#0;class#SensorMeasurement#0" />
                 <element signature="e#738#739#0" expanded="true" />
                 <element signature="e#772#773#0" expanded="true" />
               </folding>
@@ -81,9 +77,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/MeasurementGenerator.java" />
-        <option value="$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/MeasurementApp.java" />
         <option value="$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/RandomMeasurementGenerator.java" />
         <option value="$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/SensorMeasurement.java" />
+        <option value="$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/MeasurementApp.java" />
       </list>
     </option>
   </component>
@@ -127,7 +123,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559562666797" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559564040885" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -186,7 +182,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.3299363" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
@@ -212,7 +208,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/MeasurementApp.java</url>
-          <line>46</line>
+          <line>59</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -220,19 +216,14 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/MeasurementGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/SensorMeasurement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/MeasurementApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="48" column="81" selection-start-line="48" selection-start-column="81" selection-end-line="48" selection-end-column="81" />
+        <state relative-caret-position="284">
+          <caret line="41" column="129" selection-start-line="41" selection-start-column="129" selection-end-line="41" selection-end-column="129" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#SensorMeasurement#0;class#SensorMeasurement#0" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -247,16 +238,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/SensorMeasurement.java">
+    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/MeasurementGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+        <state relative-caret-position="75">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/lambdatest/model/MeasurementApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="32" column="87" selection-start-line="32" selection-start-column="87" selection-end-line="32" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
           </folding>
         </state>
       </provider>
