@@ -38,5 +38,12 @@ public class SensorMeasurement {
 
     }
 
-
+    @Override
+    public String toString() {
+        return "SensorMeasurement{" +
+                "humidity=" + humidity +
+                ", temperature=" + temperature +
+                ", lightIntensity=" + lightIntensity +
+                '}';
+    }
 }
